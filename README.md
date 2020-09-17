@@ -1,3 +1,5 @@
+# nbt5_coronalogger
+
 A basic bash script that, when installed and configured correctly, performs the following actions:
 
 - Uses curl to pull today's COVID-19 cases and deaths for the UK from the COVID-19 tracker-cli project, hosted at https://github.com/trackercli/covid19-tracker-cli, and adds this data to a simple CSV file.
