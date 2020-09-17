@@ -2,7 +2,7 @@
 
 # This script gets the day's COVID-19 stats for the UK using the service provided by trackercli at https://github.com/trackercli/covid19-tracker-cli, then adds it to the coronastats.csv log.
 # The final command builds the latest version of the coronagraph.png using gnuplot and coronagraph.gnuplot config file.
-# You will need to edit the paths to coronastats.csv and coronagraph.gnuplot to point them towards the local files on your machine, e.g. /home/username/coronalogger/coronastats.csv.
+# If you have moved this file outside the default directory, you will need to edit the paths to coronastats.csv and coronagraph.gnuplot to point them towards the local files on your machine, e.g. /home/username/coronalogger/coronastats.csv.
 # You will need to put this script somewhere it can be accessed by root, and then edit your crontab file to execute it automatically once a day. I recommend in the evening, but remember that the computer needs to be on for it to run.
 # Dependencies: curl, gnuplot
 
