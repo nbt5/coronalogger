@@ -44,4 +44,4 @@ Make sure to make the script executable with the following command:
 
 If you want to update the graph manually, all you need to is execute coronalogger.sh once a day. However, it's better to schedule it as an automatic job. To do this you will need root privileges. On Linux and macOS systems, edit your crontab file (usually located at /etc/crontab) to execute the script as root once per day, ideally in the evening.
 
-If you have moved coronalogger.sh anywhere outside the default directory, edit it in your text editor of choice and make sure the file paths are correct (see comments in script for details).
+If you have moved coronalogger.sh anywhere outside the default directory, edit it in your text editor of choice and make sure the file paths are correct (see comments in script for details). You will also need to edit the file paths in coronagraph.gnuplot to include the correct file paths.
