@@ -19,7 +19,6 @@ You must have curl and gnuplot installed. On Ubuntu-based Linux systems they can
 On macOS you can use homebrew:
 
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-	brew install curl
 	brew install gnuplot
 
 ### Script installation
